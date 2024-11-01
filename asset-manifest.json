@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UniRides/static/css/main.81d5a3af.css",
-    "main.js": "/UniRides/static/js/main.3e1d6c7d.js",
+    "main.js": "/UniRides/static/js/main.8071c37d.js",
     "static/media/fa-solid-900.ttf": "/UniRides/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/UniRides/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/UniRides/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/UniRides/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/UniRides/index.html",
     "main.81d5a3af.css.map": "/UniRides/static/css/main.81d5a3af.css.map",
-    "main.3e1d6c7d.js.map": "/UniRides/static/js/main.3e1d6c7d.js.map"
+    "main.8071c37d.js.map": "/UniRides/static/js/main.8071c37d.js.map"
   },
   "entrypoints": [
     "static/css/main.81d5a3af.css",
-    "static/js/main.3e1d6c7d.js"
+    "static/js/main.8071c37d.js"
   ]
 }
