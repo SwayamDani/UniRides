@@ -1,0 +1,26 @@
+/* src/components/Login.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.custom-signin {
+  width: 500px !important; /* Adjust the width as needed */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .custom-signin {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-signin {
+    width: 90% !important;
+  }
+}
