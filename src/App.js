@@ -1,6 +1,6 @@
 // src/App.js
 import React, {useEffect} from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useAuth } from '@clerk/clerk-react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -32,9 +32,8 @@ const App = () => {
   }, [signOut]);
 
   return (
-    <div className="App">
+    <Router basename="/UniRides">
       <Navbar />
-      <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
@@ -45,8 +44,7 @@ const App = () => {
           <Route path="/login" element={<Login />} /> {/* Add a proper login route */}
           <Route path="/signup" element={<Signup />} /> {/* Add a proper signup route */}
         </Routes>
-      </div>
-    </div>
+    </Router>
   );
 };
 
